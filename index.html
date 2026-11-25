@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bulak — спортивная одежда и обувь, Бишкек</title>
+<meta name="description" content="Bulak: мужские куртки, штаны и кроссовки. Бишкек, ул. Фрунзе 564. Ежедневно с 10:00 до 22:00.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Unbounded:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="top">
+  <a class="logo" href="#home">Bulak</a>
+  <nav class="pills" aria-label="Разделы">
+    <a href="#home">Главная</a>
+    <a href="#collection">Коллекция</a>
+    <a href="#delivery">Доставка</a>
+    <a href="#contacts">Контакты</a>
+  </nav>
+  <span class="status" id="status">Открыто до 22:00</span>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div class="ring r1"></div><div class="ring r2"></div>
+
+  <div class="hero-left">
+    <h1 class="word" aria-label="Bulak"><span>B</span><span>u</span><span>l</span><span>a</span><span>k</span></h1>
+    <p class="lead" id="itemText"></p>
+    <div class="sizes" id="sizes" role="group" aria-label="Размер"></div>
+    <a class="btn" href="https://instagram.com/bulak.shop_kg" target="_blank" rel="noopener">Уточнить наличие в Instagram</a>
+  </div>
+
+  <div class="stage"><img id="figure" alt="" width="600" height="700"></div>
+
+  <aside class="hero-right">
+    <p class="cat" id="itemName"></p>
+    <div class="thumb"><img id="thumb" alt="" width="200" height="240"></div>
+    <div class="arrows">
+      <button id="prev" aria-label="Предыдущая категория">&larr;</button>
+      <button id="next" aria-label="Следующая категория">&rarr;</button>
+    </div>
+  </aside>
+</section>
+
+<section class="collection" id="collection">
+  <h2 class="reveal">Что у нас есть</h2>
+  <ul class="rows">
+    <li><h3>Куртки</h3><p>Пуховики, ветровки и бомберы на каждый сезон</p></li>
+    <li><h3>Штаны</h3><p>Спортивные, карго и джоггеры свободного кроя</p></li>
+    <li><h3>Кроссовки</h3><p>Повседневные и беговые пары для города</p></li>
+  </ul>
+</section>
+
+<section class="info" id="delivery">
+  <h2 class="reveal">Булак значит родник</h2>
+  <div class="cols">
+    <div class="reveal"><h3>Доставка</h3><p>Привезём по Бишкеку и области. Напишите нам в Instagram, назовите модель и размер.</p></div>
+    <div class="reveal"><h3>Примерка</h3><p>Приходите в шоурум, примерьте вещи и заберите сразу.</p></div>
+  </div>
+</section>
+</main>
+
+<footer class="foot" id="contacts">
+  <div>
+    <h3>Адрес</h3>
+    <p>Бишкек, ул. Фрунзе 564</p>
+  </div>
+  <div>
+    <h3>Время работы</h3>
+    <p>Каждый день с 10:00 до 22:00</p>
+  </div>
+  <div>
+    <h3>Instagram</h3>
+    <p><a href="https://instagram.com/bulak.shop_kg" target="_blank" rel="noopener">@bulak.shop_kg</a></p>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
